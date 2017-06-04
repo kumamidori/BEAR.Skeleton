@@ -15,8 +15,6 @@
         "squizlabs/php_codesniffer": "~2.5",
         "phpmd/phpmd": "~2.3"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "BEAR\\Skeleton\\": "src/"
