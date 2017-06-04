@@ -1,6 +1,5 @@
 <?php
-
-namespace BEAR\Skeleton\Resource\Page;
+namespace Hello\Sample\Resource\Page;
 
 use BEAR\Resource\ResourceObject;
 

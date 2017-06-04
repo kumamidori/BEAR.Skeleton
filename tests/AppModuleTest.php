@@ -1,6 +1,5 @@
 <?php
-
-namespace BEAR\Skeleton;
+namespace Hello\Sample;
 
 use BEAR\Package\Bootstrap;
 use BEAR\Sunday\Extension\Application\AbstractApp;
@@ -20,6 +19,8 @@ class AppModuleTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider contextsProvider
+     *
+     * @param mixed $contexts
      */
     public function testNewApp($contexts)
     {

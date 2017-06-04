@@ -1,6 +1,5 @@
 <?php
-
-namespace BEAR\Skeleton\Module;
+namespace Hello\Sample\Module;
 
 use BEAR\Sunday\Extension\Application\AbstractApp;
 

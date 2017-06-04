@@ -1,9 +1,5 @@
 <?php
-
-/**
- * @global string $context
- */
-namespace BEAR\Skeleton;
+namespace Hello\Sample;
 
 use BEAR\Package\Bootstrap;
 use Doctrine\Common\Annotations\AnnotationRegistry;

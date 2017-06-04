@@ -35,8 +35,12 @@
             "phpcs src tests",
             "phpunit"
         ],
+        "cs": [
+            "php-cs-fixer fix -v --dry-run",
+            "phpcs --standard=./phpcs.xml src"
+        ],
         "cs-fix": [
-            "php-cs-fixer fix --config-file=./.php_cs",
+            "php-cs-fixer fix -v",
             "phpcbf src"
         ],
         "clean": "rm -rf var/tmp/* var/log/*",
